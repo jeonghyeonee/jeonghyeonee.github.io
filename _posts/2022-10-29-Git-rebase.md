@@ -41,7 +41,7 @@ The history commits show a record of what actually happened. In this point, if y
 The answer of the question is that it is up to you to decide which one is best for your particulart situation.
 
 ### Outro
-In my case, I use `git rebase` to clean up my commits in my local branch. Because I commited all of the process, so I want to integrate in 1 commit to tell this project clearly to others. In this reason, I use rebase command.
+I use `git rebase` to clean up my commits in my local branch. Because I commited all of the process containing I don't want to publish to others, so I want to integrate in 1 commit to tell this project clearly to others. In this reason, I used rebase command.
 
 #### References
 - [Git rebase](https://git-scm.com/docs/git-rebasei)
