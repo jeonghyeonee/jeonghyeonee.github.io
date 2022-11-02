@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Singleton
-categories: Architecture
-tags:  [Singleton]
+title: Singleton pattern
+categories: Pattern
+tags:  [Singleton, pattern, design]
 ---
