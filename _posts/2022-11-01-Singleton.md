@@ -13,3 +13,11 @@ However, in this case, I have some trouble when I access to Database at the same
 *How to deal with **Concurrency** problem?*
 
 ### What is the Singleton Pattern
+
+
+
+##### References
+- [Singleton Pattern](https://www.javatpoint.com/singleton-design-pattern-in-java)
+- [Design Pattern - Singleton Pattern](https://www.tutorialspoint.com/design_pattern/singleton_pattern.htm)
+- [싱글톤 패턴(Singleton pattern)](https://gyoogle.dev/blog/design-pattern/Singleton%20Pattern.html)
+- [싱글턴 패턴(wiki)](https://ko.wikipedia.org/wiki/%EC%8B%B1%EA%B8%80%ED%84%B4_%ED%8C%A8%ED%84%B4)
