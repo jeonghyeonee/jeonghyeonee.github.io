@@ -20,6 +20,8 @@ in `xml` file
       android:layout_width="match_parent"
       android:layout_height="match_parent" />
 ```
+### What is Adapter
+
 ### Disadvantage of ListView
 
 ##### References
