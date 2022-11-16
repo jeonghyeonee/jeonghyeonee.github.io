@@ -14,7 +14,7 @@ If you do these once, it will stick around between upgrades. Also you can change
 ### Location
 `git config` is tool you can get and set configuration variables of Git.
 Configuration of Git
-- location of config file: 
+ 
 
 
 ##### References
