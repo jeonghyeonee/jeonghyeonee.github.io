@@ -12,7 +12,9 @@ When you want to play the video using Python, you can use OpenCV.
 (It is just a part of OpenCV's function)
 
 ### How to play Video using OpenCV
-
+#### Capture Video
+At first time, you should read video. So, you can use very simple interface using OpenCV.
+To capture a video, you create `VideoCapture` object. Its argument can be either the device(e.g. Camera) or the name of video(e.g. test.mp4).
 ```
 import cv2
 
