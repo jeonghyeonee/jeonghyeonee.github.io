@@ -6,8 +6,9 @@ tags: [OpenVINO, windows, openvino]
 ---
 ## OpenVINO
 ### What is "OpenVINO"?
-VINO is acronyms of "<b>V</b>isual <b>I</b>nference <b>N</b>eural Network <b>O</b>ptimization"
-It is Open Source Toolkit that optimize deep learning model to Intel hardware product.
+OpenVINO is an Open Source Toolkit that optimize deep learning model to Intel Hardware product. It converts other Deep Learning framework(e.g. PyTorch, TensorFlow, ONNX, and more) into OpenVINO model and deploy Inference.
+
+VINO is an acronym of “**V**isual **I**nference **N**eural Network **O**ptimization”. You can see the means of VINO, OpenVINO focuses on optimizing Neural Network inference with a write-once, deploy-anywhere approach.
 
 
 
@@ -26,3 +27,4 @@ It is the machine uses the intelligence gathered and stored in phase onte to und
 - [inference(추론)](https://wikidocs.net/120169)
 - [AI INFERENCE](https://www.arm.com/glossary/ai-inference)
 - [What is Difference Between Deep Learnin Training and Inference?](https://blogs.nvidia.com/blog/2016/08/22/difference-deep-learning-training-inference-ai/)
+- [What is OpenVINO? - The Ultimate Overview in 2022](https://viso.ai/computer-vision/intel-openvino-toolkit-overview/)
