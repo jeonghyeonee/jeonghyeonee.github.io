@@ -9,3 +9,4 @@ tags: [OpenVINO, linux, openvino, modelzoo, omz]
 ### What is OpenVino Model Zoo
 
 ##### References
+[OpenVINO Model Zoo](https://github.com/openvinotoolkit/open_model_zoo)
