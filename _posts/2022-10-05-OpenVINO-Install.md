@@ -10,6 +10,7 @@ OpenVINO is an Open Source Toolkit that optimize deep learning model to Intel Ha
 
 VINO is an acronym of “**V**isual **I**nference **N**eural Network **O**ptimization”. You can see the means of VINO, OpenVINO focuses on optimizing Neural Network inference with a write-once, deploy-anywhere approach.
 
+### Why use "OpenVINO"?
 
 
 #### Extra
