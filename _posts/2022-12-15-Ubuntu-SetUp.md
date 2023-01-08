@@ -7,7 +7,7 @@ tags:  [Ubuntu, ubuntu]
 ## Ubuntu 20.04 Set Up
 Before we start, this post is not for virtual environment. It is the contents for the real device. 
 ### How to Set up
-##### Preparation: USB
+>  Preparation: USB
 #### 1. Download the Ubuntu 20.04 image
 
 
