@@ -9,8 +9,10 @@ tags:  [Python, python, multithread, thread, threading]
 ### What is Multi Thread
 Generally, one process executes using one thread. However, **Multi Thread** executes two or more threads in one process at the same time.
 
-### What is Multi Processing
-### Multi Thread vs. Multi Processing
+### What is Multi Process
+Multi Process means that several process is executed by using several CPU.
+
+### Multi Thread vs. Multi Process
 ### Python Multi Thread
 
 ##### References
