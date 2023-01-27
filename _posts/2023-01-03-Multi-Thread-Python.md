@@ -13,7 +13,10 @@ Generally, one process executes using one thread. However, **Multi Thread** exec
 Multi Process means that several process is executed by using several CPU.
 
 ### Multi Thread vs. Multi Process
+What is differnt between Multi Thread and Multi Process.
+
 ### Python Multi Thread
+
 
 ##### References
 - [멀티스레드](http://www.tcpschool.com/java/java_thread_multi)
