@@ -5,4 +5,3 @@ categories: Computer Systems
 tags:  [Computer Systems, CS]
 ---
 
-## Chap1.
