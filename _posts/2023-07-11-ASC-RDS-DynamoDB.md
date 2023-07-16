@@ -11,3 +11,4 @@ tags:  [ASC, AWS, RDS, DynamoDB]
 #### RDS
 ## What is DynamoDB?
 ### The Difference of RDBMS & NoSQL
+### The basic concept of DynamoDB
