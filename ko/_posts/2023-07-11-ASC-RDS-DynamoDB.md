@@ -2,7 +2,7 @@
 layout: post
 title: RDS, DynamoDB
 categories: ASC
-lang: en
+lang: ko
 lang-ref: RDS
 tags:  [ASC, AWS, RDS, DynamoDB]
 ---
