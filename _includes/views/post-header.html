@@ -2,6 +2,31 @@
   <h1 class="post-title p-name" itemprop="name headline">{{ heading | default: page.title | escape }}</h1>
   <h2 class="post-subtitle">{{ subheading | default: page.subtitle | escape }}</h2>
 
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        {% if page.layout == "post" %} 
+          {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: "lang" %} 
+          {% if posts.size > 1 %}
+            <div class="lang-options">
+              <em>Read this in a different language:</em>
+              <ul>
+                {% for post in posts %}
+                <li>
+                  <a
+                    href="{{site.base-url}}{{post.url}}"
+                    class="{{post.lang}}"
+                    title="View in {{post.lang}}"
+                  >
+                    {{site.data.i18n[post.lang].icon}}{{site.data.i18n[post.lang].label}}
+                  </a>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+          {% endif %}
+        {% endif %}
+
   <p class="post-meta">
     <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
       {%- assign date_format = site.yat.date_format | default: "%b %-d, %Y" -%}
