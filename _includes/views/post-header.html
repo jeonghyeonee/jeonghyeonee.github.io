@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
         {% if page.layout == "post" %} 
-        {% assign posts=site.page | where:"lang-ref", page.lang-ref | sort: "lang" %} 
+        {% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: "lang" %} 
         {% if posts.size > 1 %}
           <div class="lang-options">
             {% for post in posts %}
