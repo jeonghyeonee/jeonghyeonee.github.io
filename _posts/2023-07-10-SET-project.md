@@ -15,7 +15,7 @@ tags:  [web, toyproject, set]
 - spring: 3.1.1
 Java 11 setting부터 많이 고생하고, [spring initizlizr](https://start.spring.io/)를 이용해 Download 후 IntelliJ를 이용해 Open.
 BUT! 오류 발생
-![spring_version_error](../assets/posts/spring_version_error.jpg)
+![spring_version_error](../assets/images/posts/spring_version_error.jpg)
 
 
 #### WHY???
