@@ -3,6 +3,7 @@ layout: post
 title: SET; Save the Earth Together
 lang: ko
 lang-ref: SET
+categories: TIL
 tags:  [web, toyproject, set]
 ---
 
