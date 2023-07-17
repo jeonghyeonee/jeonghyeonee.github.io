@@ -2,7 +2,7 @@
 layout: post
 title: SET; Save the Earth Together
 lang: en
-permalink: /_posts/2023-07-10-SET-project
+lang-ref: SET
 tags:  [web, toyproject, set]
 ---
 
