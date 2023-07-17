@@ -200,9 +200,17 @@ markdown: kramdown
 kmarkdown:
   input: GFM
 
+# Multi Language Setting
+languages: ['ko', 'en']
+default_lang: 'ko'
+exclude_from_localization: ['_images']
+parallel_localization: false
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-spaceship
+  # multi language
+  - jekyll-polyglot
