@@ -1,6 +1,6 @@
 ko:
-  icon: "&#127480"
-  # label: Korean
+  # icon: "&#127480"
+  label: KOR
 en:
-  icon: "&#127479"
-  # label: English
+  # icon: "&#127479"
+  label: ENG
