@@ -9,17 +9,15 @@
           {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: "lang" %} 
           {% if posts.size > 1 %}
             <div class="lang-options">
-              <ul>
-                {% for post in posts %}
+              {% for post in posts %}
                 <a
                     href="{{site.base-url}}{{post.url}}"
                     class="{{post.lang}}"
                     title="View in {{post.lang}}"
                   >
-                    {{post.lang}}
+                  {{site.data.i18n[post.lang].icon}}{{site.data.i18n[post.lang].label}}
                 </a>
                 {% endfor %}
-              </ul>
             </div>
           {% endif %}
         {% endif %}
