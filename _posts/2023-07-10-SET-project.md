@@ -2,6 +2,7 @@
 layout: post
 title: SET; Save the Earth Together
 categories: ToyProject
+lang: ko
 tags:  [web, toyproject, set]
 ---
 
@@ -13,7 +14,7 @@ tags:  [web, toyproject, set]
 - spring: 3.1.1
 Java 11 setting부터 많이 고생하고, [spring initizlizr](https://start.spring.io/)를 이용해 Download 후 IntelliJ를 이용해 Open.
 BUT! 오류 발생
-![jdk11issue_20230710_225337950](https://github.com/jeonghyeonee/set/assets/33801356/285c9d2b-67aa-45fb-b863-7e9fc19d4eb0)
+![spring_version_error](jeonghyeonee.github.io/_images/spring_version_error.jpg)
 
 
 #### WHY???
