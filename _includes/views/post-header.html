@@ -6,24 +6,20 @@
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
         {% if page.layout == "post" %} 
-          {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: "lang" %} 
-          {% if posts.size > 1 %}
-            <div class="lang-options">
-              <ul>
-                {% for post in posts %}
-                <li>
-                  <a
-                    href="{{site.base-url}}{{post.url}}"
-                    class="{{post.lang}}"
-                    title="View in {{post.lang}}"
-                  >
-                    {{site.data.i18n[post.lang].icon}}{{site.data.i18n[post.lang].label}}
-                  </a>
-                </li>
-                {% endfor %}
-              </ul>
-            </div>
-          {% endif %}
+        {% assign posts=site.page | where:"lang-ref", page.lang-ref | sort: "lang" %} 
+        {% if posts.size > 1 %}
+          <div class="lang-options">
+            {% for post in posts %}
+              <a
+                href="{{site.base-url}}{{post.url}}"
+                class="{{post.lang}}"
+                title="View in {{post.lang}}"
+              >
+                {{site.data.i18n[post.lang].label}}
+              </a>
+            {% endfor %}
+          </div>
+        {% endif %}
         {% endif %}
 
   <p class="post-meta">
