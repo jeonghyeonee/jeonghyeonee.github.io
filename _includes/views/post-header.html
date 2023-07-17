@@ -2,7 +2,7 @@
   <h1 class="post-title p-name" itemprop="name headline">{{ heading | default: page.title | escape }}</h1>
   <h2 class="post-subtitle">{{ subheading | default: page.subtitle | escape }}</h2>
 
-  <div class="container">
+  <p class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
         {% if page.layout == "post" %} 
@@ -21,6 +21,9 @@
             </div>
           {% endif %}
         {% endif %}
+      </div>  
+    </div>
+  </p>
 
   <p class="post-meta">
     <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
