@@ -1,6 +1,6 @@
 <header class="post-header">
 
-  div class="container">
+  <div class="container">
   <div class="row">
     <div class="col-lg-8 col-md-10 mx-auto">
       {% if page.layout == "post" %} 
@@ -9,7 +9,9 @@
           <div class="lang-options">
             <em>Read this in a different language:</em>
             <ul>
+              posts
               {% for post in posts %}
+              post.title
               <li>
                 <a
                   href="{{site.base-url}}{{post.url}}"
@@ -25,7 +27,7 @@
         {% endif %}
       {% endif %}
 
-      
+
   <h1 class="post-title p-name" itemprop="name headline">{{ heading | default: page.title | escape }}</h1>
   <h2 class="post-subtitle">{{ subheading | default: page.subtitle | escape }}</h2>
 
