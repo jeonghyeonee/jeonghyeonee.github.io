@@ -2,6 +2,8 @@
 layout: post
 title: Network
 categories: ASC
+lang: en
+lang-ref: ASCNW
 tags:  [ASC, AWS, Network, NW]
 ---
 ## What is Network?

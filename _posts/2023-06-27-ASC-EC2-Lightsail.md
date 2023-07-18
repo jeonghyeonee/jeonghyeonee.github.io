@@ -2,6 +2,8 @@
 layout: post
 title: EC2&Lightsail
 categories: ASC
+lang: en
+lang-ref: EC2
 tags:  [ASC, AWS, EC2, Lightsail]
 ---
 

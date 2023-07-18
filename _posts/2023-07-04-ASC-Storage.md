@@ -2,6 +2,8 @@
 layout: post
 title: Storage
 categories: ASC
+lang: en
+lang-ref: Storage
 tags:  [ASC, AWS, S3, Storage, CloudFront]
 ---
 
