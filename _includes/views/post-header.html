@@ -9,16 +9,14 @@
           <div class="lang-options">
             <em>Read this in a different language:</em>
             <ul>
-              {{posts}}
               {% for post in posts %}
               <li>
                 <a
-                  href="{{site.base-url}}{{post.url}}"
+                  href="{{post.base-url}}{{post.url}}"
                   class="{{post.lang}}"
                   title="View in {{post.lang}}"
                 >
                   {{site.data.i18n[post.lang].icon}}{{site.data.i18n[post.lang].label}}
-                  escape
                 </a>
               </li>
               {% endfor %}
