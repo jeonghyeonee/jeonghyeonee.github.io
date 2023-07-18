@@ -7,7 +7,6 @@
         {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: "lang" %} 
         {% if posts.size > 1 %}
           <div class="lang-options">
-            <em>Read this in a different language:</em>
             {% for post in posts %}
               <a
                 href="{{post.base-url}}{{post.url}}"
