@@ -2,6 +2,8 @@
 layout: post
 title: git config
 categories: Git
+lang: en
+lang-ref: GitConf
 tags: [Git, git, github]
 ---
 

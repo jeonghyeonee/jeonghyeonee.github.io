@@ -2,6 +2,8 @@
 layout: post
 title: Camera Calibration
 categories: OpenCV
+lang: en
+lang-ref: Calibration
 tags:  [Calibration, calibration, OpenCV]
 ---
 ## Camera Calibration

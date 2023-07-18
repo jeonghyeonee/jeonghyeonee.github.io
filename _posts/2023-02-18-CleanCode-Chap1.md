@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Clean Code Chap 1
-categories: Clean Code
+categories: CleanCode
+lang: en
+lang-ref: CleanCodeCh1
 tags:  [CleanCode, code]
 ---
 

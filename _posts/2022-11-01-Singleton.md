@@ -2,6 +2,8 @@
 layout: post
 title: Singleton pattern
 categories: Pattern
+lang: en
+lang-ref: Singleton
 tags:  [Singleton, pattern, design]
 ---
 

@@ -2,6 +2,8 @@
 layout: post
 title: Video Play
 categories: OpenCV
+lang: en
+lang-ref: OpenCVVideo
 tags:  [Video, video, OpenCV, Python]
 ---
 

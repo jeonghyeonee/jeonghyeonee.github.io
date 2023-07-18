@@ -2,6 +2,8 @@
 layout: post
 title: Android ListView
 categories: Android
+lang: en
+lang-ref: ListView
 tags: [Android, android, listview, java, xml]
 ---
 

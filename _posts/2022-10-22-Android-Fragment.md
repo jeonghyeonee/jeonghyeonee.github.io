@@ -2,6 +2,8 @@
 layout: post
 title: Android Fragment
 categories: Android
+lang: en
+lang-ref: Fragment
 tags: [Android, android, fragment, java, xml]
 ---
 

@@ -2,6 +2,8 @@
 layout: post
 title: Git rebase
 categories: Git
+lang: en
+lang-ref: GitReabse
 tags:  [Git, git, github, command]
 ---
 

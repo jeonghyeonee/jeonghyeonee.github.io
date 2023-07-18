@@ -2,6 +2,8 @@
 layout: post
 title: Ubuntu 20.04 Set Up
 categories: Ubuntu
+lang: en
+lang-ref: UbuntuSet
 tags:  [Ubuntu, ubuntu]
 ---
 ## Ubuntu 20.04 Set Up

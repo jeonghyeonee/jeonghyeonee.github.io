@@ -2,6 +2,8 @@
 layout: post
 title: Android SharedPreferences
 categories: Android
+lang: en
+lang-ref: SharedPreferences
 tags: [Android, android, sharedpreferences, data, java, xml]
 ---
 

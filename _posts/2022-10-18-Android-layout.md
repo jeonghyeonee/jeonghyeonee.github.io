@@ -2,6 +2,8 @@
 layout: post
 title: Android Layout
 categories: Android
+lang: en
+lang-ref: AndroidLayout
 tags: [Android, android, layout, java, xml]
 ---
 

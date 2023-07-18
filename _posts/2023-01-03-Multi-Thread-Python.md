@@ -2,6 +2,8 @@
 layout: post
 title: Python Multi Thread
 categories: Python
+lang: en
+lang-ref: PythonMultiThread
 tags:  [Python, python, multithread, thread, threading]
 ---
 

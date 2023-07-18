@@ -2,6 +2,8 @@
 layout: post
 title: Docker Install (on Ubuntu 20.04)
 categories: Docker
+lang: en
+lang-ref: DockerInstall
 tags:  [Docker, docker, dockercompose, install, ubuntu]
 ---
 
