@@ -1,26 +1,29 @@
 <header class="post-header">
-  <h1 class="post-title p-name" itemprop="name headline">{{ heading | default: page.title | escape }}</h1>
-  <h2 class="post-subtitle">{{ subheading | default: page.subtitle | escape }}</h2>
-
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
         {% if page.layout == "post" %} 
-        {% assign posts=site.pages | where:"lang-ref", page.lang-ref | sort: "lang" %} 
+        {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: "lang" %} 
+        <p>posts</p>
+        {% endif %}
         {% if posts.size > 1 %}
-          <div class="lang-options">
-            {% for post in posts %}
-              <a
-                href="{{site.base-url}}{{post.url}}"
-                class="{{post.lang}}"
-                title="View in {{post.lang}}"
-              >
-                {{site.data.i18n[post.lang].label}}
-              </a>
-            {% endfor %}
-          </div>
-        {% endif %}
-        {% endif %}
+        <div class="lang-options">
+          {% for post in posts %}
+            <a
+              href="{{site.base-url}}{{post.url}}"
+              class="{{post.lang}}"
+              title="View in {{post.lang}}"
+            >
+              {{site.data.i18n[post.lang].label}}
+            </a>
+          {% endfor %}
+        </div>
+      {% endif %}
+      {% endif %}
+
+
+  <h1 class="post-title p-name" itemprop="name headline">{{ heading | default: page.title | escape }}</h1>
+  <h2 class="post-subtitle">{{ subheading | default: page.subtitle | escape }}</h2>
 
   <p class="post-meta">
     <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
