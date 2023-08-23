@@ -17,31 +17,36 @@ tags: [SystemDesign, Interview]
 - 모든 컴포넌트가 단 한대의 서버에서 실행되는 시스템
 - 사용자 요청 처리 흐름
 
-  1.  사용자는 도메인 이름(api.mysite.com)을 이용하여 웹사이트에 접속
-      도메인 이름 서비스(Domain Name Service, DNS)에 질의하여 IP 주소로 변환하는 과정 필요
-      DNS는 보통 제3사업자(third party)가 제공하는 유료 서비스 이용 → 우리 시스템 일부 X - DNS - References
-      [https://hanamon.kr/dns란-도메인-네임-시스템-개념부터-작동-방식까지/](https://hanamon.kr/dns%EB%9E%80-%EB%8F%84%EB%A9%94%EC%9D%B8-%EB%84%A4%EC%9E%84-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B0%9C%EB%85%90%EB%B6%80%ED%84%B0-%EC%9E%91%EB%8F%99-%EB%B0%A9%EC%8B%9D%EA%B9%8C%EC%A7%80/)
+  1.  사용자는 도메인 이름(api.mysite.com)을 이용하여 웹사이트에 접속  
+       도메인 이름 서비스(Domain Name Service, DNS)에 질의하여 IP 주소로 변환하는 과정 필요  
+       DNS는 보통 제3사업자(third party)가 제공하는 유료 서비스 이용 → 우리 시스템 일부 X
+      <details>
+      <summary>DNS</summary>
+      <div markdown="1">
+            - References
+                - [DNS란?(도메인 네임 시스템 개념부터 작동 방식까지)](https://hanamon.kr/dns%EB%9E%80-%EB%8F%84%EB%A9%94%EC%9D%B8-%EB%84%A4%EC%9E%84-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B0%9C%EB%85%90%EB%B6%80%ED%84%B0-%EC%9E%91%EB%8F%99-%EB%B0%A9%EC%8B%9D%EA%B9%8C%EC%A7%80/)  
+            - Domain Name System  
+                - 도메인 이름을 IP 주소로 변환하는 시스템   
+                - 전세계적으로 약속된 규칙 공유   
+                - 상위 기관에서 인증된 기관에게 도메인을 생성 or IP주소로 변경할 수 있는 ‘권한’을 부여  
+                - 계층구조(상위 기관, 하위 기관)를 가지는 분산 데이터베이스 구조
 
-              - Domain Name System
-              - 도메인 이름을 IP 주소로 변환하는 시스템
-              - 전세계적으로 약속된 규칙 공유
-              - 상위 기관에서 인증된 기관에게 도메인을 생성 or IP주소로 변경할 수 있는 ‘권한’을 부여
-              - 계층구조(상위 기관, 하위 기관)를 가지는 분산 데이터베이스 구조
+            **구성요소**
+            - Domain Name Space
+                - 도메인 이름 저장을 분산
+            - Name Server
+                - 권한 있는DNS 서버
+                - 해당 도메인 이름의 IP 주소 찾기
+            - Resolver
+                - 권한 없는 DNS 서버
+                - DNS 클라이언트 요처을 네임 서버로 전달
+                - 찾은 정보를 클라이언트에게 제공
 
-              **구성요소**
+      </div>
+      </details>
 
-              - Domain Name Space
-                  - 도메인 이름 저장을 분산
-              - Name Server
-                  - 권한 있는DNS 서버
-                  - 해당 도메인 이름의 IP 주소 찾기
-              - Resolver
-                  - 권한 없는 DNS 서버
-                  - DNS 클라이언트 요처을 네임 서버로 전달
-                  - 찾은 정보를 클라이언트에게 제공
-
-  2.  DNS 조회 결과로 IP 주소 반환
-      e.g. [api.mysite.com](http://api.mysite.com) → 15.120.23.214(웹 서버의 주소)
+  2.  DNS 조회 결과로 IP 주소 반환  
+      e.g. api.mysite.com → 15.120.23.214(웹 서버의 주소)
   3.  해당 IP 주소로 HTTP(HyperText Transfer Protocol) 요청 전달
   4.  요청을 받은 웹 서버는 HTML 페이지나 JSON 형태의 응답 반환
 
