@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 가상 면접 사례로 배우는 대규모 시스템 설계 기초 Chap1; 사용자 수에 따른 규모 확장성
-categories: systemdesign-interview
+categories: Book
 lang: ko
 lang-ref: systemdesign-interview-chap1
 tags: [SystemDesign, Interview]

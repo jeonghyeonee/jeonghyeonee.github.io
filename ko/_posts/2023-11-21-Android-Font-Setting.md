@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Android Font 설정
-categories: Android, TIL
+categories: Android TIL
 lang: ko
 lang-ref: AndroidFontSetting
 tags: [Android, Kotlin, Font, res, TIL]
