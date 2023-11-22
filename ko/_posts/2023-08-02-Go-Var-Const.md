@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Go; 변수와 상수
-categories: Go
+categories: Lang
 lang: ko
 lang-ref: GoVarConst
 tags: [Go]

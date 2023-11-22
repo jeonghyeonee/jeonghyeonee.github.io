@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Singleton pattern
-categories: Pattern
+categories: Intern
 lang: en
 lang-ref: Singleton
 tags: [Singleton, pattern, design]
